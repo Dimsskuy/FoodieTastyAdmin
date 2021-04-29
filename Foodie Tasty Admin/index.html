@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Dashboard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section id="sidebar">
+        <div class="sidebar-brand">
+            <h2><i class="fa fa-desktop"></i> <span>Foodie Tasty</span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="#"><i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
+                <li><a href="#"><i class="fa fa-users"></i> <span>On Process</span></a></li>
+                <li><a href="#"><i class="fa fa-file"></i> <span>Process Complete</span></a></li>
+                <li><a href="#"><i class="fa fa-file-pdf-o"></i> <span>Orders</span></a></li>
+                <li><a href="#"><i class="fa fa-money"></i> <span>Income</span></a></li>
+                <li><a href="#"><i class="fa fa-user"></i> <span>Account</span></a></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <Section id="main-content">
+        <header>
+            <div class="header-left">
+                <h2 class="toggle-btn">
+                    <i class="fa fa-bars"></i> Dashboard
+                </h2>
+            </div>
+            <div class="header-left header-serach">
+                <div class="serach-par">
+                    <input class="search" type="text" placeholder="Search Here...">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="header-left header-profile">
+                <img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png" class="img-responsive" />
+                <h3>Foodie Tasty</h3>
+                <p>Admin</p>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <div class="clear"></div>
+        <div class="main-content-info container">
+            <div class="card">
+                <h2 class="cus-num cus-h">4</h2>
+                <p>On Process</p>
+            </div>
+            <div class="card">
+                <h2 class="cus-num cus-pro">4</h2>
+                <p>Process Complete</p>
+            </div>
+            <div class="card">
+                <h2 class="cus-num cus-ord">8</h2>
+                <p>Order</p>
+            </div>
+            <div class="card">
+                <h2 class="cus-num cus-inc">80K</h2>
+                <p>Income</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content-pro-par container">
+            <div class="pro-table">
+                <div class="recent-project">
+                    <div class="rec-pro-h">
+                        <h2>List Customers</h2>
+                    </div>
+                    <div class="see-all">
+                        <button>See all</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <table style="width:100%">
+                    <tr>
+                        <th>Customers Name</th>
+                        <th>Home Address</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Fernanda</td>
+                        <td>Jl. Tropodo Meri</td>
+                        <td><span class="rev-span"></span>Delivery Process</td>
+                    </tr>
+                    <tr>
+                        <td>Dimas</td>
+                        <td>Jl. Margosari Tengah </td>
+                        <td><span class="progress-span"></span>Delivery Is Complete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahni</td>
+                        <td>Jl. Tlogomas </td>
+                        <td><span class="pending-span"></span>Delivery Process</td>
+                    </tr>
+                    <tr>
+                        <td>Yoga</td>
+                        <td>Jl. Saxophone </td>
+                        <td><span class="rev-span"></span>Delivery Process</td>
+                    </tr>
+                    <tr>
+                        <td>Hikam</td>
+                        <td>Jl. Pulo Rejo</td>
+                        <td><span class="progress-span"></span>Delivery Is Complete</td>
+                    </tr>
+                    <tr>
+                        <td>Ilman </td>
+                        <td>Jl. Raya Kenanten</td>
+                        <td><span class="pending-span"></span>Delivery Is Complete</td>
+                    </tr>
+                    <tr>
+                        <td>Diana</td>
+                        <td>Jl. Emounala</td>
+                        <td><span class="rev-span"></span>Delivery Process</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>Jl. Benteng Pancasila</td>
+                        <td><span class="progress-span"></span>Delivery Is Complete</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="pro-cus">
+                <div class="recent-project">
+                    <div class="rec-pro-h">
+                        <h2>Order Details</h2>
+                    </div>
+                    <div class="see-all">
+                        <button>See all</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <table style="width:100%">
+                    <tr>
+                        <th>Order</th>
+                        <th>Name</th>
+                        
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td>Chicken Sausage Mayo Pizza</td>
+                        <td class="cnt-info-td"><a href="tel:9800121212"><i ></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Chicken Satay</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Chicken Satay</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Chicken Sausage Mayo Pizza</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Chicken Satay</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Beef Steak</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Beef Steak</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Chicken Sausage Mayo Pizza</td>
+
+                    </tr>
+                    
+                    
+                </table>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </Section>
+    <div class="clear"></div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/external.js"></script>
+</body>
+
+</html>
